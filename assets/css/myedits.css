@@ -21,3 +21,10 @@
     height: auto;
   }
 }
+
+@media screen and (max-width: 480px) {
+  #intro p {
+    word-break: break-word;
+    white-space: pre-line;
+  }
+}
